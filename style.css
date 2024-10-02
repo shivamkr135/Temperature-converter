@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+label{
+    font-size: 1.5vw;
+}
+.container{
+    background-color: aquamarine;
+    height: 15vw;
+    width: 50%;
+    padding: 2vw 4vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+ input{
+    font-size: 1.5vw;
+    padding: 0vw 1vw;
+}
+
+label{
+    font-size: 2vw;
+}
+button{
+    font-size: 2vw;
+    position: absolute;
+    left:45vw;
+    top: 20vw;
+    padding: 0.5vw 1.5vw;
+    cursor: pointer;
+    border: none;
+    border-radius: 2vw;
+    background-color: blueviolet;
+    color: white;
+}
